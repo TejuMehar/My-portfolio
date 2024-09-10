@@ -1,0 +1,115 @@
+
+.portfolio-container{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+}
+.navlist{
+    display: flex;
+    gap: 2.5rem;
+    list-style: none;
+   // background-color: rgba(84, 121, 190,0.5);
+    height: 10vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+}
+.navlist  li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: #fff;
+}
+.left-container,.right-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.left-container{
+background-color: #262525;
+width: 70%;
+padding-left: 3rem;
+}
+.right-container{
+background-color: #3877ff;
+width: 30%;
+}
+.icons .fa-brands {
+    color: #bbb;
+    font-size: 1.7rem;
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    gap:2.3rem;
+}
+.content{
+    margin-left: 5rem;
+}
+.content h2{
+    font-size: 1.5rem;
+    color: white;
+}
+.content h1{
+    font-size: 4rem;
+    color: #5DB9EE;
+}
+.content h2 span{
+    color: #5DB9EE;
+    
+}
+.content .detail{
+    font-size: 1.1rem;
+    color: #fff;
+    max-width: 38rem;
+    margin: 1.1rem 0 3.3rem 0;
+    line-height: 1.8rem;
+}
+.btn button{
+    border: .1rem solid #5DB9EE;
+    font-size: 1.1rem;
+    border-radius: 15px;
+    padding: .8rem  1.5rem;
+    cursor:pointer;
+
+}
+button:nth-child(1){
+    background-color: #5DB9EE;
+}
+button:nth-child(2){
+    background: transparent;
+    color: #5DB9EE;
+    margin-left: 2rem;
+}
+button:nth-child(1):hover{
+    background: transparent;
+    color: #5DB9EE;
+    transition: 1s ease;
+}
+button:nth-child(2):hover{
+    background-color: #5DB9EE;
+    color: black;
+    transition: 1s ease;
+}
+.design .circle{
+ aspect-ratio: 1;
+ position: absolute;
+ border-radius: 50%;
+ top: 50%;
+ left: 70%;
+ transform: translate(-50% ,-50%);
+}
+.circle:nth-child(1){
+    background:linear-gradient(90deg ,red, #262525, 50%);
+    width :  35rem;
+}
+.circle:nth-child(2){
+    background-color: white;
+    width: 20rem;
+    background-image: url(myimage.jpg);
+    background-size: 100%;
+    box-shadow: 0 0 5rem #fff;
+}
